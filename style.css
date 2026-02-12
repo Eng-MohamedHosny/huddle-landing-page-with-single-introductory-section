@@ -225,7 +225,7 @@ header img {
   border-color: var(--magenta-400);
 }
 /*==== Tablet Size ====== */
-@media (min-width: 480px) {
+@media (min-width: 48rem) {
   .illustration {
     margin-bottom: var(--spacing-500);
   }
@@ -253,7 +253,7 @@ header img {
   }
 }
 /*==== Desktop Size ====== */
-@media (min-width: 1024px) {
+@media (min-width: 102.4rem) {
   body {
     background-image: url(images/bg-desktop.svg);
     background-size: cover;
@@ -279,6 +279,9 @@ header img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+  .text-content {
+    text-align: left;
   }
   .social-media {
     text-align: right;
