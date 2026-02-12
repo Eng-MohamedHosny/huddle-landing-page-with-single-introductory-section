@@ -225,7 +225,7 @@ header img {
   color: var(--magenta-400);
   border-color: var(--magenta-400);
 }
-
+/*==== Tablet Size ====== */
 @media (min-width: 480px) {
   .illustration {
     margin-bottom: var(--spacing-500);
@@ -253,6 +253,7 @@ header img {
     height: 4rem;
   }
 }
+/*==== Desktop Size ====== */
 @media (min-width: 1024px) {
   body {
     background-image: url(images/bg-desktop.svg);
