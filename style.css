@@ -141,6 +141,10 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.social-media a:hover i{
+    color: var(--magenta-400);
+    border-color: var(--magenta-400);
+}
 
 @media (min-width: 600px) {
   main {
@@ -166,7 +170,8 @@ button:hover {
 @media (min-width: 900px) {
   main {
     flex-direction: row;
-    width: 1272px;
+    /* width: 1272px; */
+    width: 88.5%;
   }
   .logo {
     width: 20rem;
